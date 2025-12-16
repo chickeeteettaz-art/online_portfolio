@@ -3,7 +3,7 @@ import React from 'react'
 const App = () => {
   return (
     <main>
-        <div>3D Portfolio</div>
+        <div className='text-3xl'>3D Portfolio</div>
     </main>
   )
 }
