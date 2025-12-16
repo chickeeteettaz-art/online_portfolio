@@ -39,7 +39,7 @@ const Hero = () => {
                         text='See my Work'/>
                 </div>
             </header>
-
+                                    
             <figure>
                 <div className='hero-3d-layout'>
                     <HeroExperience/>
