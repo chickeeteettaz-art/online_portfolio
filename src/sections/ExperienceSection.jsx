@@ -15,12 +15,21 @@ const ExperienceSection = () => {
                     {expCards.map((card, index) => (
                         <>
                             <div key={card.title} className='exp-card-wrapper'>
-                                <div className='xl:w2/6'>
+                                <div className='xl:w-2/6'>
                                     <GlowCard card = {card} index={index}>
                                         <div>
                                             <img src={card.imgPath} alt={card.title} />
                                         </div>
                                     </GlowCard>
+                                </div>
+
+                                <div className='xl:w4/6'>
+                                    <div className='flex items-start'>
+                                        <div className='timeline-wrapper'>
+                                            <div className='timeline'/>
+                                            <div className='gradient-line w-1 h-ful'/>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             
