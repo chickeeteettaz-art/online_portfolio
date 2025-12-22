@@ -110,19 +110,51 @@ const techStackImgs = [
     imgPath: "/images/logos/react.png",
   },
   {
-    name: "Python Developer",
-    imgPath: "/images/logos/python.svg",
+    name: "JavaScript",
+    imgPath: "/images/logos/javascript.png",
+  },
+  {
+    name: "TypeScript",
+    imgPath: "/images/logos/typescript.png",
   },
   {
     name: "Backend Developer",
     imgPath: "/images/logos/node.png",
   },
   {
-    name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
+    name: "Java",
+    imgPath: "/images/logos/java.png",
   },
   {
-    name: "Project Manager",
+    name: "Tailwind CSS",
+    imgPath: "/images/logos/tailwind.png",
+  },
+  {
+    name: "C#",
+    imgPath: "/images/logos/c.png",
+  },
+  {
+    name: ".Net Framework",
+    imgPath: "/images/logos/net.png",
+  },
+  {
+    name: "Kotlin",
+    imgPath: "/images/logos/kotlin.png",
+  },
+  {
+    name: "Azure",
+    imgPath: "/images/logos/azure.png",
+  },
+  {
+    name: "mySQL",
+    imgPath: "/images/logos/sql.png",
+  },
+  {
+    name: "Android",
+    imgPath: "/images/logos/android.png",
+  },
+  {
+    name: "Git",
     imgPath: "/images/logos/git.svg",
   },
 ];
@@ -135,7 +167,7 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "Python Developer",
+    name: "JavaScript",
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
