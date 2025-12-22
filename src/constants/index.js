@@ -162,21 +162,22 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    /*      */ 
+    review: "The National Diploma of IT in Software Development offered by Rosebank College is an NQF level 6 qualification that is recognised by the South African Qualifications Authority.",
     imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    logoPath: "/images/rosebank.jpeg",
+    title: "National Diploma",
+    date: "November 2025",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Graduated Cum laude",
+      "Obtained with Distinction",
+      "Obtained with 91% Average and 3.4 GPA",
     ],
   },
   {
     review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
     imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
+    logoPath: "/images/school.png",
     title: "Full Stack Developer",
     date: "June 2020 - December 2023",
     responsibilities: [
