@@ -23,21 +23,6 @@ const TechStack = () => {
             <TitleHeader title={`My current Techstack`} sub={`Current skills I possess 💼`}/>
 
             <div className='tech-grid'>
-                {techStackIcons.map((icon) => (
-                    <div key={icon.name} className='card-border tech-card overflow-hidden group xl:rounded-full rounded-lg'>
-
-                        <div className='tech-card-animated-bg'/>
-                        <div className='tech-card-content'>
-                            <div className='tech-icon-wrapper'>
-                                <TechIcon model={icon}/>
-                            </div>
-                            
-                            <div className='padding-x w-full '>
-                                <p>{icon.name}</p>
-                            </div>
-                        </div>
-                    </div>
-                ))}
 
                 {techStackImgs.map((icon) =>(
                     <div key={icon.name} className='card-border tech-card overflow-hidden group xl:rounded-full rounded-lg'>
@@ -52,6 +37,7 @@ const TechStack = () => {
                         </div>
                     </div>
                 ))}
+                
             </div>
         </div>
     </div>

@@ -166,7 +166,7 @@ const expCards = [
     review: "The National Diploma of IT in Software Development offered by Rosebank College is an NQF level 6 qualification that is recognised by the South African Qualifications Authority.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/rosebank.jpeg",
-    title: "National Diploma",
+    title: "National IT Diploma",
     date: "November 2025",
     responsibilities: [
       "Graduated Cum laude",
@@ -175,29 +175,18 @@ const expCards = [
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    review: "The National Senior Certificate is an NQF level 5 qualification that is recognised by the South African Qualifications Authority",
     imgPath: "/images/exp2.png",
     logoPath: "/images/school.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "National Senior Certificate",
+    date: "Jan 2019 - Nov 2019",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Qualification obtained with 5 distinctions",
+      "Qualification obtained with a 79% average",
+      
     ],
-  },
-  {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
-    responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
-    ],
-  },
+  }
+  
 ];
 
 const expLogos = [
