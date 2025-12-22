@@ -29,46 +29,46 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 24, suffix: "+", label: "Distinctions obtained in studies" },
+  { value: 12, suffix: "+", label: "Programming Languages" },
+  { value: 23, suffix: "+", label: "Completed Projects" },
+  { value: 91, suffix: "%", label: "Academic Average" },
 ];
 
 const logoIconsList = [
-  {
+  /*{
     imgPath: "/images/logos/company-logo-1.png",
-  },
+  },*/
   {
     imgPath: "/images/logos/company-logo-2.png",
   },
-  {
+  /*{
     imgPath: "/images/logos/company-logo-3.png",
-  },
+  },*/
   {
     imgPath: "/images/logos/company-logo-4.png",
   },
-  {
+  /*{
     imgPath: "/images/logos/company-logo-5.png",
-  },
+  },*/
   {
     imgPath: "/images/logos/company-logo-6.png",
   },
   {
     imgPath: "/images/logos/company-logo-7.png",
   },
-  {
+  /*{
     imgPath: "/images/logos/company-logo-8.png",
-  },
+  },*/
   {
     imgPath: "/images/logos/company-logo-9.png",
   },
   {
     imgPath: "/images/logos/company-logo-10.png",
   },
-  {
+  /*{
     imgPath: "/images/logos/company-logo-11.png",
-  },
+  },*/
 ];
 
 const abilities = [
@@ -86,6 +86,21 @@ const abilities = [
     imgPath: "/images/time.png",
     title: "On-Time Delivery",
     desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+  },
+  {
+    imgPath: "/images/united.png",
+    title: "Team Player",
+    desc: "I work very well in team settings to bring the best value to elevate results.",
+  },
+  {
+    imgPath: "/images/honest.png",
+    title: "Ethical",
+    desc: "Dedicated to practising good ethical standards to maintain high-quality work.",
+  },
+  {
+    imgPath: "/images/knowledge.png",
+    title: "Fast Learner",
+    desc: "Life long learning is one of my biggest investments.",
   },
 ];
 
