@@ -65,7 +65,7 @@ const ShowcaseSection = () => {
                             
                         </div>
                         <div className='text-content'>
-                            <h2>Get useful AI generated tips to improve your CV to help you land your dream job. <span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></h2>
+                            <h2>Get useful AI generated tips to improve your CV to help you ace your interview and land your dream job. <a href='https://puter.com/app/jsm-ai-resume-analyser-8'><span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></a></h2>
                             <p className='text-white-50 md:text-xl'>AI Powered Platform for improving your CV</p>
                         </div>
                     </div>
@@ -76,20 +76,20 @@ const ShowcaseSection = () => {
                         <div className='project' ref={project2Reft}>
                             <div className='image-wrapper bg-[#ffefdb]'>
                                 
-                                <img src='/images/project2.png' alt='Foodie'/>
+                                <img src='/images/movie.png' alt='Foodie'/>
                             </div>
-                            <h2 className=''>Library Management <span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></h2>
-                            <p>Get all the latest books at the touch of your finger tips.</p>
+                            <h2 className=''> Movie Dox <a href='https://movieapp-be124.firebaseapp.com/'><span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></a></h2>
+                            <p>Get all the latest moview with Movie Dox</p>
                             
                             
                         </div>
 
                         <div className='project' ref={project3Reft}>
                             <div className='image-wrapper bg-[#ffe7eb]'>
-                                <img src='/images/project3.png' alt='Foodie'/>
+                                <img src='/images/converso.png' alt='Foodie'/>
                             </div>
-                            <h2 className=''>YC Directory <span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></h2>
-                            <p>Get all the latest books at the touch of your finger tips.</p>
+                            <h2 className=''>Converso AI Tutor<a href='https://saas-app-xmxq-c6o698x5l-zinhle-mahlangus-projects.vercel.app/'> <span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></a></h2>
+                            <p>Dive deep into topics with your own AI tutor.</p>
                         </div>
                     </div>
 
@@ -101,12 +101,12 @@ const ShowcaseSection = () => {
                         
 
                         <div className='project' ref={project2Reft}>
-                            <div className='image-wrapper bg-[#ffefdb]'>
+                            <div className='image-wrapper p-2.5 bg-[#ffefdb]'>
                                 
-                                <img src='/images/project2.png' alt='Foodie'/>
+                                <img src='/images/portfolio.png' alt='Foodie'/>
                             </div>
-                            <h2 className=''>Library Management <span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></h2>
-                            <p>Get all the latest books at the touch of your finger tips.</p>
+                            <h2 className=''>Online Portfolio <a href='#hero'><span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></a></h2>
+                            <p>Learn more about me on this website</p>
                             
                             
                         </div>
@@ -120,16 +120,7 @@ const ShowcaseSection = () => {
                             
                             
                         </div>
-                        <div className='project' ref={project2Reft}>
-                            <div className='image-wrapper bg-[#ffefdb]'>
-                                
-                                <img src='/images/project2.png' alt='Foodie'/>
-                            </div>
-                            <h2 className=''>Library Management <span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></h2>
-                            <p>Get all the latest books at the touch of your finger tips.</p>
-                            
-                            
-                        </div>
+                        
                         
                     </div>
                 </div>
