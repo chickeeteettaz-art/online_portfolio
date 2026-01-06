@@ -2,6 +2,8 @@ import React, { useRef } from 'react'
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
+import TitleHeader from '../components/TitleHeader';
+
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -13,7 +15,7 @@ const ShowcaseSection = () => {
     const project2Reft = useRef(null);
     const project3Reft = useRef(null);
 
-    
+    const techStack = ["NEXT.JS","TypeScript","Puter",'Git']
 
 
 
@@ -49,14 +51,22 @@ const ShowcaseSection = () => {
     <>
         <section ref={sectionRef} id='work' className='app-showcase'>
             <div className='w-full'>
+                <TitleHeader
+                    title="Latest Projects"
+                    sub="📋 Projects and Contributions"
+                    />
                 <div className='showcaselayout'>
                     <div className='first-project-wrapper' ref={project1Reft}>
                         <div className='image-wrapper'>
-                            <img src='/images/project1.png' alt='Ryde'/>
+
+                            <a href='https://puter.com/app/jsm-ai-resume-analyser-8'>
+                                  <img src='/images/resumind.png' alt='Ryde'/>  
+                            </a>
+                            
                         </div>
                         <div className='text-content'>
-                            <h2>On Demand Rides made simple with a powerful, user friendly app called Ryde</h2>
-                            <p className='text-white-50 md:text-xl'>A ride sharing app that connects riders with drivers seamlessly.</p>
+                            <h2>Get useful AI generated tips to improve your CV to help you land your dream job. <span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></h2>
+                            <p className='text-white-50 md:text-xl'>AI Powered Platform for improving your CV</p>
                         </div>
                     </div>
 
@@ -65,17 +75,62 @@ const ShowcaseSection = () => {
 
                         <div className='project' ref={project2Reft}>
                             <div className='image-wrapper bg-[#ffefdb]'>
+                                
                                 <img src='/images/project2.png' alt='Foodie'/>
                             </div>
-                            <h2 className=''>Library Management</h2>
+                            <h2 className=''>Library Management <span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></h2>
+                            <p>Get all the latest books at the touch of your finger tips.</p>
+                            
+                            
                         </div>
 
                         <div className='project' ref={project3Reft}>
                             <div className='image-wrapper bg-[#ffe7eb]'>
                                 <img src='/images/project3.png' alt='Foodie'/>
                             </div>
-                            <h2 className=''>YC Directory</h2>
+                            <h2 className=''>YC Directory <span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></h2>
+                            <p>Get all the latest books at the touch of your finger tips.</p>
                         </div>
+                    </div>
+
+
+                    
+                </div>
+                <div className='w-full flex '>
+                    <div className='project-row-wrapper overflow-hidden flex flex-row flex-wrap'>
+                        
+
+                        <div className='project' ref={project2Reft}>
+                            <div className='image-wrapper bg-[#ffefdb]'>
+                                
+                                <img src='/images/project2.png' alt='Foodie'/>
+                            </div>
+                            <h2 className=''>Library Management <span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></h2>
+                            <p>Get all the latest books at the touch of your finger tips.</p>
+                            
+                            
+                        </div>
+                        <div className='project' ref={project2Reft}>
+                            <div className='image-wrapper bg-[#ffefdb]'>
+                                
+                                <img src='/images/project2.png' alt='Foodie'/>
+                            </div>
+                            <h2 className=''>Library Management <span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></h2>
+                            <p>Get all the latest books at the touch of your finger tips.</p>
+                            
+                            
+                        </div>
+                        <div className='project' ref={project2Reft}>
+                            <div className='image-wrapper bg-[#ffefdb]'>
+                                
+                                <img src='/images/project2.png' alt='Foodie'/>
+                            </div>
+                            <h2 className=''>Library Management <span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></h2>
+                            <p>Get all the latest books at the touch of your finger tips.</p>
+                            
+                            
+                        </div>
+                        
                     </div>
                 </div>
             </div>

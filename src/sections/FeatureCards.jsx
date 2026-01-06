@@ -1,11 +1,15 @@
 import React from 'react'
 import { abilities } from '../constants'
+import TitleHeader from '../components/TitleHeader'
 
 const FeatureCards = () => {
   return (
     <>
         <div className='w-full padding-x-lg'>
-          <div className = "mx-auto grid-3-cols">
+          <TitleHeader
+            title={'My Core Values'}
+          />
+          <div className = "mx-auto grid-3-cols mt-5">
             {abilities.map((ability) => (
               <>
                 <div key={ability.title} className='card-border rounded-xl p-8 flex flex-col gap-4'>

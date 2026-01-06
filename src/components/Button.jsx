@@ -8,7 +8,7 @@ const Button = ({className,text,id}) => {
         onClick={(e) => {
             e.preventDefault();
 
-            const target = document.getElementById('coounter')
+            const target = document.getElementById('work')
 
             if(target && id){
                 const offset = window.innerHeight * 0.15

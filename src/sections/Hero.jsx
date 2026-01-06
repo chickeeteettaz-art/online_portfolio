@@ -49,19 +49,20 @@ const Hero = () => {
                         <h1>that Deliver Results</h1>
                         
                     </div>
-                    <p className='text-white-50 md:text-xl relative z-10'>Hi I am Zinhle Mahlangu. A dedicated Software Developer keen to build, create and maintain.</p>
-                    <Button 
+                    <p className='text-white-50 md:text-xl relative z-10'>Hi I am Zinhle Mahlangu.<br/> A dedicated Software Developer keen to build, create and innocat.</p>
+                    <a href='' className='md:w-80 md:h-16 w-60 h-12'><Button 
                         className='md:w-80 md:h-16 w-60 h-12'
-                        id='button'
-                        text='See my Work'/>
+                        id='work'
+                        text='See my Work'
+                        /></a>
                 </div>
             </header>
                                     
-            <figure>
-                <div className='hero-3d-layout'>
-                    <HeroExperience/>
-                </div>
-            </figure>
+            
+        </div>
+
+        <div className='xl:absolute md:top-40 xl:right-40 xl:z-20 '>
+            <img src='/images/ProfileImage.png' alt='ProfileImage' className='rounded-2xl size-130 md:size-120'/>
         </div>
         <AnimateCounter/>
     </section>
