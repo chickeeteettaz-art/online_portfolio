@@ -111,12 +111,12 @@ const ShowcaseSection = () => {
                             
                         </div>
                         <div className='project' ref={project2Reft}>
-                            <div className='image-wrapper bg-[#ffefdb]'>
+                            <div className='image-wrapper p-2.5 bg-[#ffefdb]'>
                                 
-                                <img src='/images/project2.png' alt='Foodie'/>
+                                <img src='/images/interview.png' alt='Foodie'/>
                             </div>
-                            <h2 className=''>Library Management <span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></h2>
-                            <p>Get all the latest books at the touch of your finger tips.</p>
+                            <h2 className=''>AI Interview Preper <a href='https://github.com/chickeeteettaz-art/mock_interview_platform'><span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></a></h2>
+                            <p>Get live mock interviews with AI Interview agents.</p>
                             
                             
                         </div>
