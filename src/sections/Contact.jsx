@@ -32,6 +32,7 @@ const Contact = () => {
 
       // Reset form and stop loading
       setForm({ name: "", email: "", message: "" });
+      alert('Your message has been sent successfully.')
     } catch (error) {
       console.error("EmailJS Error:", error); // Optional: show toast
     } finally {
@@ -99,9 +100,7 @@ const Contact = () => {
                     <p className="text">
                       {loading ? "Sending..." : "Send Message"}
                     </p>
-                    <div className="arrow-wrapper">
-                      <img src="/images/arrow-down.svg" alt="arrow" />
-                    </div>
+                    
                   </div>
                 </button>
               </form>
