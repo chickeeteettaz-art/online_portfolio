@@ -21,7 +21,7 @@ const LogoIcon = ({ icon }) => {
   return (
     <div className='flex-none flex-center marquee-item'>
       <i
-        className={`devicon-${icon.className} text-6xl md:text-5xl text-white/90`}
+        className={`devicon-${icon.className} text-9xl md:text-5xl text-white/90`}
         aria-label={icon.name}
         title={icon.name}
       />
