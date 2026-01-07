@@ -102,6 +102,30 @@ section {
     @apply xl:w-[70%] w-full h-full min-h-[50vh] absolute xl:-top-20 top-24 xl:-right-20 right-0;
   }
 
+  /* Hero profile image responsive wrapper */
+  .hero-profile {
+    /* Use Tailwind utilities directly in @apply; don't @apply custom classes like .flex-center */
+    /* Place image at the far right on md+ screens, keep centered on small screens */
+    @apply md:absolute md:top-40 md:right-40 xl:right-50 xl:z-20 w-full md:w-auto flex items-center justify-center md:justify-end mt-8 md:mt-0;
+  }
+  .hero-profile-img {
+    @apply shadow-lg;
+  }
+
+  /* Social icons row */
+  .social-icons {
+    @apply flex items-center gap-4 mt-2;
+  }
+  .social-icon {
+    @apply inline-flex items-center justify-center w-10 h-10 rounded-full text-white bg-black-200 border border-white/10 transition duration-300 ease-out;
+    box-shadow: 0 0 0px rgba(59,130,246,0.0);
+  }
+  .social-icon:hover {
+    @apply border-white/30 bg-black;
+    box-shadow: 0 0 12px rgba(99,102,241,0.8), 0 0 24px rgba(59,130,246,0.5);
+    transform: translateY(-2px);
+  }
+
   .navbar {
     @apply fixed w-full left-1/2 py-5 px-5 md:px-20 -translate-x-1/2 z-[100] transition-all duration-300 ease-in-out;
 
