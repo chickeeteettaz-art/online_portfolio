@@ -22,7 +22,7 @@ const Hero = () => {
                 ease:'power2.inOut',
             },
         )
-        /*w-full flex items-center justify-center mt-8*/
+        
     })
   return (
     <section id='hero' className='relative overflow-hidden'>
