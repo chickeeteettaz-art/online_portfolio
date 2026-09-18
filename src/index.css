@@ -114,10 +114,10 @@ section {
 
   /* Social icons row */
   .social-icons {
-    @apply flex items-center gap-4 mt-1;
+    @apply relative z-30 flex items-center gap-4 mt-1 pointer-events-auto;
   }
   .social-icon {
-    @apply inline-flex items-center justify-center w-10 h-10 rounded-full text-white bg-black-200 border border-white/10 transition duration-300 ease-out;
+    @apply relative z-30 inline-flex items-center justify-center w-10 h-10 rounded-full text-white bg-black-200 border border-white/10 transition duration-300 ease-out pointer-events-auto cursor-pointer;
     box-shadow: 0 0 0px rgba(59,130,246,0.0);
   }
   .social-icon:hover {
