@@ -18,11 +18,11 @@ const App = () => {
       <LogoSection />
       <ShowcaseSection />
 
-      <FeatureCards />
+
       <ExperienceSection />
       <Certifications />
       <TechStack />
-
+      <FeatureCards />
       <Contact />
       <Footer />
     </>
