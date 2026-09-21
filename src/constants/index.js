@@ -11,7 +11,11 @@ const navLinks = [
     name: "Skills",
     link: "#skills",
   },
-  
+  {
+    name: "Certifications",
+    link: "#certifications",
+  },
+
 ];
 
 const words = [
@@ -177,10 +181,22 @@ const techStackIcons = [
 
 const expCards = [
   {
-    /*      */ 
+    /*      */
+    review: "The Advanced Diploma in Application Development offered by Rosebank College is an NQF level 7 qualification that is recognised by the South African Qualifications Authority (SAQA).",
+    imgPath: "/images/exp1.png",
+    logoPath: "/images/ri_logo.png",
+    title: "Advanced Diploma",
+    date: "Jan 2026 - Nov 2026",
+    responsibilities: [
+      "Current Avarage: 88%",
+      "To be completed in 2026 only",
+    ],
+  },
+  {
+    /*      */
     review: "The National Diploma of IT in Software Development offered by Rosebank College is an NQF level 6 qualification that is recognised by the South African Qualifications Authority (SAQA).",
     imgPath: "/images/exp1.png",
-    logoPath: "/images/rosebank.jpeg",
+    logoPath: "/images/ri_logo.png",
     title: "National IT Diploma",
     date: "Jan 2023 - Nov 2025",
     responsibilities: [
@@ -197,10 +213,10 @@ const expCards = [
     responsibilities: [
       "Qualification obtained with 5 distinctions",
       "Qualification obtained with a 79% average",
-      
+
     ],
   }
-  
+
 ];
 
 const expLogos = [

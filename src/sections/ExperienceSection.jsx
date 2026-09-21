@@ -14,17 +14,17 @@ const ExperienceSection = () => {
       gsap.from(card, {
         xPercent: -100,
         opacity: 0,
-        
+
         transformOrigin: "left left",
-        
+
         duration: 1,
-        
+
         ease: "power2.inOut",
-        
+
         scrollTrigger: {
-          
+
           trigger: card,
-          
+
           start: "top 80%",
         },
       });
@@ -56,7 +56,7 @@ const ExperienceSection = () => {
           start: "top 60%",
         },
       });
-    }, "<"); 
+    }, "<");
   }, []);
 
   return (
@@ -75,7 +75,7 @@ const ExperienceSection = () => {
               <div key={card.title} className="exp-card-wrapper">
                 <div className="xl:w-2/6">
                   <GlowCard card={card}>
-                    
+
                   </GlowCard>
                 </div>
                 <div className="xl:w-4/6">
