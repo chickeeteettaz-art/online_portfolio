@@ -108,7 +108,7 @@ const ShowcaseSection = () => {
                                 <div className='image-wrapper p-2.5 bg-[#ffefdb]'>
                                     <img src='/images/luckydate.png' alt='lycky date' />
                                 </div>
-                                <h2 className=''>Luck Date <a href='https://lucky-date-mate-kysv.vercel.app/'><span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></a></h2>
+                                <h2 className=''>Lucky Date <a href='https://lucky-date-mate-kysv.vercel.app/'><span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></a></h2>
                                 <p>Roulette Style Speed dating site.</p>
 
                             </div>
