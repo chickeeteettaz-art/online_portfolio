@@ -59,7 +59,7 @@ const ShowcaseSection = () => {
                         <div className='first-project-wrapper' ref={project1Reft}>
                             <div className='image-wrapper'>
                                 <a href='https://saas-app-xmxq-c6o698x5l-zinhle-mahlangus-projects.vercel.app/'>
-                                    <img src='/images/converso.png' alt='Ryde' />
+                                    <img src='/images/converso.png' alt='converso' />
                                 </a>
                             </div>
                             <div className='text-content'>
@@ -73,7 +73,7 @@ const ShowcaseSection = () => {
                             <div className='project' ref={project2Reft}>
                                 <div className='image-wrapper bg-[#2f4f6f]'>
 
-                                    <img src='/images/movies.png' alt='Foodie' />
+                                    <img src='/images/movies.png' alt='movie dox' />
                                 </div>
                                 <h2 className=''> Movie Dox <a href='https://movieapp-be124.firebaseapp.com/'><span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></a></h2>
                                 <p>Get all the latest moview with Movie Dox</p>
@@ -82,7 +82,7 @@ const ShowcaseSection = () => {
 
                             <div className='project' ref={project3Reft}>
                                 <div className='image-wrapper bg-[#2f4f6f]'>
-                                    <img src='/images/mirsv.png' alt='Foodie' />
+                                    <img src='/images/mirsv.png' alt='mirsv.io' />
                                 </div>
                                 <h2 className=''>Mirsv.io<a href='https://mirsv.io'> <span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></a></h2>
                                 <p>Built for mordern Email threats by using the power of AI security.</p>
@@ -98,12 +98,18 @@ const ShowcaseSection = () => {
 
                             <div className='project' ref={project2Reft}>
                                 <div className='image-wrapper p-2.5 bg-[#ffefdb]'>
-
-                                    <img src='/images/portfolio.png' alt='Foodie' />
+                                    <img src='/images/portfolio.png' alt='portfolio' />
                                 </div>
                                 <h2 className=''>Online Portfolio <a href='#hero'><span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></a></h2>
                                 <p>Learn more about me on this website</p>
 
+                            </div>
+                            <div className='project' ref={project2Reft}>
+                                <div className='image-wrapper p-2.5 bg-[#ffefdb]'>
+                                    <img src='/images/luckydate.png' alt='lycky date' />
+                                </div>
+                                <h2 className=''>Luck Date <a href='https://lucky-date-mate-kysv.vercel.app/'><span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></a></h2>
+                                <p>Roulette Style Speed dating site.</p>
 
                             </div>
 
