@@ -110,9 +110,14 @@ const ShowcaseSection = () => {
                                 </div>
                                 <h2 className=''>Lucky Date <a href='https://lucky-date-mate-kysv.vercel.app/'><span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></a></h2>
                                 <p>Roulette Style Speed dating site.</p>
-
                             </div>
-
+                            <div className='project' ref={project2Reft}>
+                                <div className='image-wrapper p-2.5 bg-[#ffefdb]'>
+                                    <img src='/images/gtg.png' alt='Gift of the givers' />
+                                </div>
+                                <h2 className=''>Gift of the Givers<a href='https://giftofthegiverswebsite.azurewebsites.net/'><span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></a></h2>
+                                <p>Gift of the Givers Web application</p>
+                            </div>
 
 
                         </div>
