@@ -58,12 +58,12 @@ const ShowcaseSection = () => {
                     <div className='showcaselayout'>
                         <div className='first-project-wrapper' ref={project1Reft}>
                             <div className='image-wrapper'>
-                                <a href='https://saas-app-xmxq-c6o698x5l-zinhle-mahlangus-projects.vercel.app/'>
+                                <a href='https://saas-app-xmxq-c6o698x5l-zinhle-mahlangus-projects.vercel.app/' target='_blank' rel='noopener noreferrer'>
                                     <img src='/images/converso.png' alt='converso' />
                                 </a>
                             </div>
                             <div className='text-content'>
-                                <h2>Converso is an AI-Powered educational assistant programme designed to provide tailored Voice enabled AI learning companions. <a href='https://saas-app-xmxq-c6o698x5l-zinhle-mahlangus-projects.vercel.app/'><span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></a></h2>
+                                <h2>Converso is an AI-Powered educational assistant programme designed to provide tailored Voice enabled AI learning companions. <a href='https://saas-app-xmxq-c6o698x5l-zinhle-mahlangus-projects.vercel.app/' target='_blank' rel='noopener noreferrer'><span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></a> <a href='https://github.com/chickeeteettaz-art/Saas-App' target='_blank' rel='noopener noreferrer' className='inline-block bg-gray-700 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-gray-600 text-sm'>GitHub Repo</a></h2>
                                 <p className='text-white-50 md:text-xl'>AI Powered Platform for improving your CV</p>
                             </div>
                         </div>
@@ -75,7 +75,7 @@ const ShowcaseSection = () => {
 
                                     <img src='/images/movies.png' alt='movie dox' />
                                 </div>
-                                <h2 className=''> Movie Dox <a href='https://movieapp-be124.firebaseapp.com/'><span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></a></h2>
+                                <h2 className=''> Movie Dox <a href='https://movieapp-be124.firebaseapp.com/' target='_blank' rel='noopener noreferrer'><span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></a></h2>
                                 <p>Get all the latest moview with Movie Dox</p>
 
                             </div>
@@ -84,7 +84,7 @@ const ShowcaseSection = () => {
                                 <div className='image-wrapper bg-[#2f4f6f]'>
                                     <img src='/images/mirsv.png' alt='mirsv.io' />
                                 </div>
-                                <h2 className=''>Mirsv.io<a href='https://mirsv.io'> <span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></a></h2>
+                                <h2 className=''>Mirsv.io<a href='https://mirsv.io' target='_blank' rel='noopener noreferrer'> <span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></a> </h2>
                                 <p>Built for mordern Email threats by using the power of AI security.</p>
                             </div>
                         </div>
@@ -100,7 +100,7 @@ const ShowcaseSection = () => {
                                 <div className='image-wrapper p-2.5 bg-[#ffefdb]'>
                                     <img src='/images/portfolio.png' alt='portfolio' />
                                 </div>
-                                <h2 className=''>Online Portfolio <a href='#hero'><span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></a></h2>
+                                <h2 className=''>Online Portfolio <a href='#hero' target='_blank' rel='noopener noreferrer'><span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></a> <a href='https://github.com/chickeeteettaz-art/online_portfolio' target='_blank' rel='noopener noreferrer' className='inline-block bg-gray-700 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-gray-600 text-sm'>GitHub Repo</a></h2>
                                 <p>Learn more about me on this website</p>
 
                             </div>
@@ -108,14 +108,14 @@ const ShowcaseSection = () => {
                                 <div className='image-wrapper p-2.5 bg-[#ffefdb]'>
                                     <img src='/images/luckydate.png' alt='lycky date' />
                                 </div>
-                                <h2 className=''>Lucky Date <a href='https://lucky-date-mate-kysv.vercel.app/'><span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></a></h2>
+                                <h2 className=''>Lucky Date <a href='https://lucky-date-mate-kysv.vercel.app/' target='_blank' rel='noopener noreferrer'><span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></a> <a href='https://github.com/chickeeteettaz-art/lucky-date-mate' target='_blank' rel='noopener noreferrer' className='inline-block bg-gray-700 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-gray-600 text-sm'>GitHub Repo</a></h2>
                                 <p>Roulette Style Speed dating site.</p>
                             </div>
                             <div className='project' ref={project2Reft}>
                                 <div className='image-wrapper p-2.5 bg-[#ffefdb]'>
                                     <img src='/images/gtg.png' alt='Gift of the givers' />
                                 </div>
-                                <h2 className=''>Gift of the Givers<a href='https://giftofthegiverswebsite.azurewebsites.net/'><span className='bg-green-500 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-green-600 text-sm'>View Project</span></a></h2>
+                                <h2 className=''>Gift of the Givers<a href='https://github.com/KagisoT/gift-of-the-givers-project' target='_blank' rel='noopener noreferrer' className='inline-block bg-gray-700 ml-1.5 mb-2.5 rounded-3xl p-1.5 cursor-pointer hover:bg-gray-600 text-sm'>GitHub Repo</a></h2>
                                 <p>Gift of the Givers Web application</p>
                             </div>
 
